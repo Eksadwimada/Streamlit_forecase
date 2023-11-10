@@ -1,6 +1,9 @@
 import pickle
 import streamlit as st
 import pandas as pd
+import subprocess
+subprocess.run(["pip", "install", "matplotlib"])
+
 import matplotlib.pyplot as plt
 
 model = pickle.load(open('prediksi_co2.sav', 'rb'))
