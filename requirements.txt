@@ -5,3 +5,4 @@ seaborn
 statsmodels
 streamlit==1.28.1
 matplotlib==3.7.1
+openpyxl
